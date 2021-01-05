@@ -1,0 +1,134 @@
+.behind{
+  position: relative;
+  left: 15%;
+  z-index: 0;
+}
+body{
+  overflow-x: hidden;
+  background-color: maroon;
+}
+h1 {
+  text-align: center;
+  font-family: 'Chango', cursive;
+  font-size: 500%;
+  text-shadow: 10px 10px 30px black;
+  color: yellow;
+}
+/* .h12 {
+  text-decoration: underline overline wavy yellow;
+} */
+.dot {
+  height: 65em;
+  width: 65em;
+  background-color: #FFFF00;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.outline {
+  height: 68em;
+  width: 68em;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 29.35%;
+  top: -2%;
+  z-index: 0;
+}
+.one {
+  bottom: 25%;
+  left: 41.5%;
+}
+.nine {
+  bottom: 10%;
+  left: 25%;
+}
+.three {
+  bottom: 10%;
+  left: 58%;
+}
+.four {
+  bottom: -21%;
+  left: 65%;
+}
+.five {
+  bottom: -21%;
+  left: 18%;
+}
+.six {
+  top: 145%;
+  left: 41.5%;
+}
+.seven {
+  top: 126%;
+  left: 25%;
+}
+.eight {
+  top: 126%;
+  left: 58%;
+}
+.eleven {
+  bottom: -22%;
+  left: 41.5%;
+}
+img {
+  position: absolute;
+  height: 25%;
+  width: 15%;
+  border: 10px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+a:hover img{
+  -webkit-box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+  box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+a:hover .one, a:focus .one{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .two, a:focus .two{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .three, a:focus .three{
+  -webkit-box-transform: scale(2.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+a:hover .four, a:focus .four{
+  -webkit-box-transform: scale(1.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}a:hover .five, a:focus .five{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .six, a:focus .six{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .seven, a:focus .seven{
+  -webkit-box-transform: scale(2.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+a:hover .eight, a:focus .eight{
+  -webkit-box-transform: scale(1.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+a:hover .nine, a:focus .nine{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .ten, a:focus .ten{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover .eleven, a:focus .eleven{
+  -webkit-box-transform: scale(2.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+
+.front {
+  z-index: 2;
+}
