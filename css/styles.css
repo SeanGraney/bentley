@@ -38,39 +38,39 @@ h1 {
   z-index: 0;
 }
 .one {
-  bottom: 25%;
+  bottom: 15%;
   left: 41.5%;
 }
 .nine {
-  bottom: 10%;
+  bottom: 0%;
   left: 25%;
 }
 .three {
-  bottom: 10%;
+  bottom: 0%;
   left: 58%;
 }
 .four {
-  bottom: -21%;
+  bottom: -31%;
   left: 65%;
 }
 .five {
-  bottom: -21%;
+  bottom: -31%;
   left: 18%;
 }
 .six {
-  top: 145%;
+  top: 155%;
   left: 41.5%;
 }
 .seven {
-  top: 126%;
+  top: 136%;
   left: 25%;
 }
 .eight {
-  top: 126%;
+  top: 136%;
   left: 58%;
 }
 .eleven {
-  bottom: -22%;
+  bottom: -32%;
   left: 41.5%;
 }
 img {
@@ -128,6 +128,7 @@ a:hover .eleven, a:focus .eleven{
   -webkit-box-transform: scale(2.5) rotate(30deg);
   transform: scale(2.5) rotate(30deg);
 }
+
 
 .front {
   z-index: 2;
